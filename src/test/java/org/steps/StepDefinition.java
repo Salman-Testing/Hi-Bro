@@ -1,19 +1,10 @@
 package org.steps;
 
-import java.util.List;
-import java.util.Map;
-
 import org.base.BaseClass;
-import org.junit.Assert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 
-import io.cucumber.datatable.DataTableType;
-import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import io.github.bonigarcia.wdm.WebDriverManager;
 
 
 public class StepDefinition extends BaseClass {
