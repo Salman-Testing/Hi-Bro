@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 import io.cucumber.junit.CucumberOptions.SnippetType;
 
 @RunWith (Cucumber.class)
-@CucumberOptions (features="src\\test\\resources",glue="org.steps",dryRun=false
+@CucumberOptions (features="src/test/resources",glue="org.steps",dryRun=false
 ,monochrome=true
 ,strict=true,snippets=SnippetType.CAMELCASE, 
 plugin= {"html:C:\\Users\\salma\\eclipse-workspace\\CucumberProject8AM\\REPORTS\\HTMLFolder",

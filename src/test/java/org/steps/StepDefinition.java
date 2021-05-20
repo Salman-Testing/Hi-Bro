@@ -44,7 +44,7 @@ public class StepDefinition extends BaseClass {
 	@When("User will click the login button")
 	public void user_will_click_the_login_button() {
 	    
-		System.out.println("Login button");
+		System.out.println("Login buttons");
 		
 	}
 
